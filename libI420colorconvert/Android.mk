@@ -8,6 +8,9 @@ LOCAL_C_INCLUDES:= \
         $(TOP)/frameworks/native/include/media/openmax \
         $(TOP)/frameworks/native/include/media/editor
 
+LOCAL_STATIC_LIBRARIES := \
+       libarect 
+
 LOCAL_CFLAGS := -Wall -Werror
 
 LOCAL_MODULE_TAGS := optional
